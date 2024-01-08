@@ -1,0 +1,212 @@
+* {
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  background: #ece2da;
+}
+.header {
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  display: block;
+}
+#logo {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+}
+main .elementor-widget-heading h2.elementor-heading-title {
+  font-family: Syne;
+  text-align: center;
+}
+#menu li:last-child a {
+  color: #fff;
+}
+#menu li:last-child {
+  background-color: #dc9f96;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 80px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+#menu li:last-child:hover {
+  background-color: #c02e44;
+  cursor: pointer;
+}
+
+#menu ul li a {
+  color: #000000;
+  text-decoration: none;
+  height: 80px;
+  line-height: 80px;
+  font-family: roboto;
+  padding: 0 20px;
+}
+
+  /*NOUSRECONTRER--------*/
+
+  .texlabel {
+    color: #000;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   
+   
+  }
+  
+  textarea, input[type="text"], input[type="email"]{
+   border: none;
+   width: 100%;
+   height: 71px;
+   border-radius: 7px !important;
+   flex-shrink: 0;
+   -webkit-border-radius: 7px !important;
+   -moz-border-radius: 7px !important;
+   -ms-border-radius: 7px !important;
+   -o-border-radius: 7px !important;
+   margin-top: 2rem;
+   margin-bottom: 1.5rem;
+  }
+  textarea {
+    width: 100%;
+  height: 237px;
+  margin-top: 1.5rem;
+  flex-shrink: 0;
+  border-radius: 7px;
+  background: #FFF;
+  box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+  }
+  input[type="submit"]{
+    display: flex;
+    width: 100%;
+    height: 55px;
+    padding: 9px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 5px !important;
+    background: #E0B9B4;
+    border: none;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+    color: #fff;
+    margin: 0 auto;
+  }
+
+
+@media screen and (min-width: 1024px) {
+  #logo {
+    margin-left: 37px;
+    margin-top: 30px;
+    width: 201px;
+    height: 19px;
+  }
+  .header {
+    width: 100%;
+    height: 80px;
+    padding: 0;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+ 
+  #menu {
+    display: flex;
+    align-items: center;
+  }
+  #menu ul {
+    display: flex;
+  }
+  #menu ul li a {
+    color: #000000;
+    text-decoration: none;
+    height: 80px;
+    line-height: 80px;
+    font-family: roboto;
+    padding: 0 20px;
+  }
+  #menu li:last-child {
+    background-color: #dc9f96;
+    width: 236px;
+    font-size: 16px;
+  }
+  /*NOUSRECONTRER--------*/
+
+.texlabel {
+  color: #000;
+  font-family: Syne;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+ 
+ 
+}
+
+textarea, input[type="text"], input[type="email"]{
+ border: none;
+ width: 383px;
+ height: 71px;
+ border-radius: 7px !important;
+ flex-shrink: 0;
+ -webkit-border-radius: 7px !important;
+ -moz-border-radius: 7px !important;
+ -ms-border-radius: 7px !important;
+ -o-border-radius: 7px !important;
+ margin-top: 2rem;
+ margin-bottom: 1.5rem;
+}
+textarea {
+  width: 383px;
+height: 237px;
+margin-top: 1.5rem;
+flex-shrink: 0;
+border-radius: 7px;
+background: #FFF;
+box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+}
+input[type="submit"]{
+  display: flex;
+  width: 198px;
+  height: 55px;
+  padding: 9px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 5px !important;
+  background: #E0B9B4;
+  border: none;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  -o-border-radius: 5px !important;
+  color: #fff;
+  margin: 0 auto;
+}
+}
+
+
+
+footer {
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+}
+
+.copy p {
+  padding-top: 40px;
+}
