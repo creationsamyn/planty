@@ -24,14 +24,14 @@ add_action( 'wp_enqueue_scripts', 'chld_thm_cfg_parent_css', 10 );
 
 
 function agregar_enlace_admin_menu($items, $args) {
-    // Verifica si la ubicación del menú es 'main-menu'
+
     if ($args->theme_location == 'main-menu') {
-        // Verifica si el usuario está conectado y es un administrador
+      
         if (is_user_logged_in() && current_user_can('administrator')) {
-            // Crea el enlace para los administradores conectados
+         
             $admin_link = '<li class="nuevo-menu"><a href="' . admin_url() . '">Admin</a></li>';
             
-            // Inserta el nuevo elemento al principio del menú
+         
             $items = $admin_link . $items;
         }
     }
